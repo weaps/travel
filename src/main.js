@@ -3,9 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// import fastclick from 'fastclick'2
+// 引入通用样式表
+import './assets/css/reset.css'
+import './assets/css/iconfont.css'
 
 Vue.config.productionTip = false
-
+// fastclick.attach(document.body)3
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
@@ -13,3 +17,7 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+// router 路由就是根据网址的不同，返回不同的内容给用户
+// npm install fastclick --save 1
+// npm install stylus --save  npm install stylus-loader --save 安装stylus，类似于sass
