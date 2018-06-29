@@ -11,7 +11,8 @@ export default {
 <style lang="stylus" scoped>
   @import '../../../assets/css/saccbase.styl';
   .header
-    height 5.375rem
+    height 2.6875rem
+    line-height 2.6875rem
     background $baseColor
     color #fff
 </style>
